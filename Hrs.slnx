@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Hrs.Api/">
+    <Project Path="Hrs.Api/Hrs.Api.Business/Hrs.Api.Business.csproj" />
+    <Project Path="Hrs.Api/Hrs.Api.Repository/Hrs.Api.Repository.csproj" />
+    <Project Path="Hrs.Api/Hrs.Api.Shared/Hrs.Api.Shared.csproj" />
+    <Project Path="Hrs.Api/Hrs.Api/Hrs.Api.csproj" />
+    <Project Path="Hrs.Api/Test/Test.csproj" />
+  </Folder>
+  <Folder Name="/Hrs.Website/">
+    <Project Path="Hrs.Website/Hrs.Website.Business/Hrs.Website.Business.csproj" />
+    <Project Path="Hrs.Website/Hrs.Website.Shared/Hrs.Website.Shared.csproj" />
+    <Project Path="Hrs.Website/Hrs.Website/Hrs.Website.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,24 @@
+@model Hrs.Website.Shared.Dtos.HotelDto
+@{
+    Layout = "_Layout"; 
+}
+<form asp-controller="Hotel" asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Location"></label>
+        <input asp-for="Location" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="StarRating"></label>
+        <input asp-for="StarRating" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="TotalRooms"></label>
+        <input asp-for="TotalRooms" class="form-control" />
+    </div>
+    <br/>
+    <button type="submit" class="btn btn-primary">Create Hotel</button>
+</form>

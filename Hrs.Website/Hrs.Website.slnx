@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Hrs.Website.Business/Hrs.Website.Business.csproj" />
+  <Project Path="Hrs.Website.Shared/Hrs.Website.Shared.csproj" />
+  <Project Path="Hrs.Website/Hrs.Website.csproj" />
+</Solution>
